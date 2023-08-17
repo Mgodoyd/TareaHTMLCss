@@ -1,0 +1,40 @@
+/*lo deje responsive para ver las combinaciones*/
+body{
+    background-color: powderblue;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+p{
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+    body{
+        background-color: white;
+    }
+    h1{
+        color: red;
+        text-align: center;
+    }
+    p{
+        color: blue;
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 540px) {
+    body{
+        background-color: blue;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    p{
+        color: white;
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 90%; 
+}
+
+th, td {
+    border: 1px solid rgb(167, 162, 162); 
+    padding: 8px; 
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #9d9c9c; /* Color de fondo para filas pares */
+}
